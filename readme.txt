@@ -2,9 +2,9 @@
 Contributors: As247
 Donate link: http://as247.vui360.com/blog/
 Tags: 2-Step Verification, Authenticator, Bảo mật, Code, Google, Password, Securiry ,Username, Wordpress, Xác thực 2 bước, Xác minh 2 bước
-Requires at least: 3.0
-Tested up to: 4.3
-Stable tag: 1.1.3
+Requires at least: 3.3 or Higher
+Tested up to: 4.9.8
+Stable tag: 1.5.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,23 +42,70 @@ The plugin uses wordpress built-in function to send email. If email function not
 *Yes*, it does. You can `network active` it, it work with all users no matter if your site is multisite or not
 If an user turn it `ON` that mean he will be asked for code once login on all sites whole the network.
 
-== Screenshots ==
+# Screenshots
 
 1. Overview page
 2. Set up instruction
 3. Enter code after login
 
-== Changelog ==
+# Changelog
 
-= 1.0 =
-* Initial release.
-= 1.1 =
-* Fix some issues
-* Add translation for vietnamese
-* Compatible with Wordpress 4.1
-= 1.1.1 =
-* Add Some missing icon
-= 1.1.2 =
-* Fix sync time issue
-= 1.1.3 =
-* Compatible with Wordpress 4.3
+#### 1.0
+- Initial release.
+
+#### 1.1
+- Fix some issues
+- Add translation for vietnamese
+- Compatible with WordPress 4.1
+
+#### 1.1.1
+- Add Some missing icon
+
+#### 1.1.2
+- Fix sync time issue
+
+#### 1.1.3
+- Compatible with WordPress 4.3
+
+#### 1.2
+-  New feature Backup codes
+- New feature App passwords
+- Compatible with WordPress 4.4.2
+
+#### 1.2.1
+- Fix some small issues
+- Fully Vietnamese translation
+
+#### 1.2.2
+- Improve security
+
+#### 1.2.3
+- Fix app login
+- Fix other issues
+
+#### 1.3
+- Skip 2 step verification on rest api, we can’t implement this on api. Api will use oAuth for authentication and it’s secure enough
+- Allow login on browser with app password (for compatible with embed browser in WordPress app)
+- WordPress 4.5
+
+#### 1.3.1
+- Fix rest_api_register_rewrites undefined error came in 1.3 if WordPress version < 4.4.0
+
+#### 1.5
+- New design for enter code screen
+- Recovery option for admin by upload verification file
+- Fix bug empty page after enter a valid code
+
+#### 1.5.1
+- Fix fatal error on php < 5.4
+
+#### 1.5.2
+- Fix conflict with wp-mail-bank plugin
+- Fix some small issues
+
+#### 1.5.3
+- Fix small issues
+- Add Russian translation
+
+#### 1.5.4
+- Fix issue with rest request
