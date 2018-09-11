@@ -1,0 +1,784 @@
+# Copyright (C) 2016 Wordpress 2-Step Verification
+# This file is distributed under the same license as the Wordpress 2-Step Verification package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress 2-Step Verification 1.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordpress-2-step-"
+"verification\n"
+"POT-Creation-Date: 2016-11-24 16:56+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-02-12 00:28+0700\n"
+"Language-Team: Atrax L10N team <team@atrax.ru>\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: _n;_e;__\n"
+"X-Poedit-Basepath: ..\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru_RU\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/recovery.php:34
+#, php-format
+msgid "Could not verify the file, please make sure the file is uploaded to %s"
+msgstr "Не удалось проверить файл, убедитесь, что файл загружен в %s"
+
+#: page-config-all.php:6
+msgid "Set up 2-step verification for"
+msgstr "Настройка 2-факторной верификации для"
+
+#: page-config-all.php:13
+msgid "Set up your email"
+msgstr "Настройка email"
+
+#: page-config-all.php:14
+msgid "Set up your phone"
+msgstr "Ваш телефон"
+
+#: page-config-all.php:16
+msgid "Verify computer"
+msgstr "Проверка компьютера"
+
+#: page-config-all.php:17
+msgid "Activate"
+msgstr "Активация"
+
+#: page-config-all.php:24
+msgid ""
+"Choose how you'd like to get verification codes &mdash; in an email,or from "
+"an application on your smartphone."
+msgstr ""
+"Выберите, как вы хотели бы получить коды подтверждения &mdash; по "
+"электронной почте, или из приложения на вашем смартфоне."
+
+#: page-config-all.php:31
+msgid "Choose one:"
+msgstr "Выберите вариант"
+
+#: page-config-all.php:32
+msgid "Smartphone application"
+msgstr "Приложение для смартфонов"
+
+#: page-config-all.php:49
+msgid "Back"
+msgstr "Назад"
+
+#: page-config-all.php:51
+msgid "Next"
+msgstr "Дальше"
+
+#: page-config-all.php:55 page-config-all.php:163 page-config.php:31
+msgid "Turn on 2-step verification"
+msgstr "Включение 2-факторной верификации"
+
+#: page-config-all.php:58 page-config-overview.php:220
+#: page-config-overview.php:251
+msgid "Cancel"
+msgstr "Отмена"
+
+#: page-config-all.php:62
+msgid ""
+"Add an email address where Wordpress 2-step verification can send codes."
+msgstr "Добавьте email-адрес, куда Wordpress 2FA может отправлять коды."
+
+#: page-config-all.php:76
+msgid "Enter your email address"
+msgstr "Введите ваш email-адрес"
+
+#: page-config-all.php:83
+msgid "ex:"
+msgstr "пример:"
+
+#: page-config-all.php:83
+msgid "example@domain.com"
+msgstr "example@domain.com"
+
+#: page-config-all.php:93
+msgid "Let's test the email."
+msgstr "Давайте проверим email."
+
+#: page-config-all.php:97
+msgid "Click \"Send code\" and check your email for the verification code."
+msgstr "Нажмите \"Отправить код\" и проверьте почту."
+
+#: page-config-all.php:99
+msgid "Send code"
+msgstr "Отправить код"
+
+#: page-config-all.php:111
+msgid "Enter the code you receive on your email"
+msgstr "Введите код, который вы получили по почте"
+
+#: page-config-all.php:115
+msgid "Code"
+msgstr "Код"
+
+#: page-config-all.php:121 page-config-all.php:399
+msgid "Verify and save"
+msgstr "Проверить и сохранить"
+
+#: page-config-all.php:124 page-config-all.php:401
+#: template/form-recovery.php:24
+msgid "Verify"
+msgstr "Проверить"
+
+#: page-config-all.php:144
+msgid ""
+"Make this a <span class=\"trusted-computer-emphasis\">trusted computer</span>"
+msgstr ""
+"Сделать этот компьютер <span class=\"trusted-computer-emphasis\">доверенным</"
+"span>"
+
+#: page-config-all.php:149 page-config-overview.php:136
+msgid ""
+"Trusted computers only ask for verification codes once every 30 days. If you "
+"lose your phone, you might be able to access your account from a trusted "
+"computer without needing a code. We recommend that you make this a trusted "
+"computer only if you trust the people who have access to it."
+msgstr ""
+"Доверенные компьютеры спрашивают проверочный код раз в 30 дней. Если вы "
+"потеряете ваш телефон, то сможете получить доступ к вашей учетной записи с "
+"доверенного компьютера без кода. Мы рекомендуем сделать доверенным компьютер "
+"только если вы доверяете людям, имеющим к нему доступ."
+
+#: page-config-all.php:154 page-config-overview.php:131
+msgid "Trust this computer"
+msgstr "Доверять этому компьютеру"
+
+#: page-config-all.php:156
+msgid ""
+"You can always change which computers you trust in your Account settings."
+msgstr ""
+"Вы всегда сможете изменить настройку доверенных компьютеров в настройках "
+"вашей учетной записи."
+
+#: page-config-all.php:167
+msgid ""
+"You will be asked for a code whenever you sign in from an unrecognized "
+"computer or device."
+msgstr ""
+"Вас будут всегда просить ввести проверочный код при входе с неизвестных "
+"компьютеров или устройств."
+
+#: page-config-all.php:174 page-config-all.php:252 page-config-all.php:321
+msgid "Install the verification application for"
+msgstr "Установка приложения верификации для"
+
+#: page-config-all.php:179
+msgid "On your phone, go to the Google Play Store."
+msgstr "Войдите в Google Play Store с вашего телефона."
+
+#: page-config-all.php:182 page-config-all.php:260
+msgid "Search for <b>Google Authenticator</b>."
+msgstr "Найдите <b>Google Authenticator</b>."
+
+#: page-config-all.php:185
+msgid "Download from the Google Play Store"
+msgstr "Скачайте его из Google Play Store"
+
+#: page-config-all.php:188
+msgid "Download and install the application."
+msgstr "Скачать и установить приложение"
+
+#: page-config-all.php:193 page-config-all.php:269 page-config-all.php:336
+msgid "Now open and configure Google Authenticator."
+msgstr "Теперь откройте и настройте Google Authenticator."
+
+#: page-config-all.php:197
+msgid "In Google Authenticator, touch Menu and select \"Set up account.\" "
+msgstr ""
+"В Google Authenticator прикоснитесь к кнопке \"+\"меню и выберите \"Set up "
+"account\" или \"Настроить учетную запись\"."
+
+#: page-config-all.php:200
+msgid "Select \"Scan a barcode.\""
+msgstr "Выберите \"Сканировать штрихкод\"."
+
+#: page-config-all.php:203 page-config-all.php:276
+msgid "Use your phone's camera to scan this barcode."
+msgstr "Для сканирования bar-кода используйте камеру вашего телефона."
+
+#: page-config-all.php:214 page-config-all.php:287
+msgid "Can't scan the barcode?"
+msgstr "Не можете просканировать bar-код?"
+
+#: page-config-all.php:218
+msgid "In Google Authenticator, touch Menu and select \"Set up account.\""
+msgstr ""
+"В Google Authenticator-е прикоснитесь к меню и выберите \"Set up account\" "
+"или \"Настроить учетную запись\"."
+
+#: page-config-all.php:221
+msgid "Select \"Enter provided key\""
+msgstr "Выберите \"Enter provided key\" (\"Введите предоставленный ключ\")"
+
+#: page-config-all.php:224 page-config-all.php:343
+msgid "In \"Enter account name\" type your wordpress username."
+msgstr ""
+"В \"Enter account name\" (\"Введите имя учетной записи\") введите ваше имя "
+"пользователя."
+
+#: page-config-all.php:227
+msgid "In \"Enter your key\" type your secret key:"
+msgstr "В \"Enter your key\" type your secret key:"
+
+#: page-config-all.php:233 page-config-all.php:306 page-config-all.php:352
+msgid "Spaces don't matter."
+msgstr "Пробелы не имеют значения."
+
+#: page-config-all.php:238
+msgid "Key type: make sure \"Time-based\" is selected."
+msgstr "Тип ключа: убедитесь, что выбрано \"По времени\"."
+
+#: page-config-all.php:241
+msgid "Tap Add."
+msgstr "Нажмите Добавить."
+
+#: page-config-all.php:257
+msgid "On your iPhone, tap the App Store icon."
+msgstr "На вашем iPhone нажмите иконку App Store."
+
+#: page-config-all.php:262
+msgid "Download from the App Store"
+msgstr "Скачайте их App Store"
+
+#: page-config-all.php:265
+msgid "Tap the app, and then tap Free to download and install it."
+msgstr ""
+"Запустите приложение и затем нажмите Free, чтобы скачать и установить его."
+
+#: page-config-all.php:273
+msgid "In Google Authenticator, tap \"+\", and then \"Scan Barcode.\" "
+msgstr ""
+"В Google Authenticator нажмите \"+\", а затем \"Сканировать штрихкод.\" "
+
+#: page-config-all.php:291
+msgid "In Google Authenticator, tap +."
+msgstr "В Google Authenticator нажмите +."
+
+#: page-config-all.php:294
+msgid "Key type: make sure \"Time-based\" is selected. "
+msgstr "Тип ключа: убедитесь, что выбрано \"По времени\"."
+
+#: page-config-all.php:297
+msgid "In \"Account\" type your wordpress username."
+msgstr "В поле \"Учетная запись\" введите ваше имя пользователя Wordpress."
+
+#: page-config-all.php:300
+msgid "In \"Key\" type your secret key:"
+msgstr "В поле \"Ключ\" введите ваш секретный ключ:"
+
+#: page-config-all.php:311
+msgid "Tap Done."
+msgstr "Нажмите Done (\"Готово\")."
+
+#: page-config-all.php:326
+msgid "On your phone, open a web browser."
+msgstr "Откройте браузер на вашем телефоне."
+
+#: page-config-all.php:329
+msgid "Go to <strong>m.google.com/authenticator</strong>"
+msgstr "Перейдите на <strong>m.google.com/authenticator</strong>"
+
+#: page-config-all.php:332
+msgid "Download and install the Google Authenticator application."
+msgstr "Скачайте и установите приложение  Google Authenticator."
+
+#: page-config-all.php:340
+msgid "In Google Authenticator, select Manual key entry."
+msgstr "В Google Authenticator выберите Ввести ключ вручную."
+
+#: page-config-all.php:346
+msgid "In \"Enter key\" type your secret key:"
+msgstr "В \"Введите ключ\" наберите ваш закрытый ключ:"
+
+#: page-config-all.php:357
+msgid "Choose Time-based type of key."
+msgstr "Выберите Time-based тип ключа."
+
+#: page-config-all.php:360
+msgid "Tap Save."
+msgstr "Нажмите Сохранить."
+
+#: page-config-all.php:367
+#, php-format
+msgid "Your %s device is configured"
+msgstr "Ваше устройство %s настроено."
+
+#: page-config-all.php:371 page-config-all.php:383
+#: wordpress-2-step-verification.php:337
+msgid "Click Next to continue."
+msgstr "Нажмите \"Дальше\" для продолжения."
+
+#: page-config-all.php:375
+msgid ""
+"Tip: Codes are time-dependent. Make sure your phone is set to the correct "
+"local time."
+msgstr ""
+"Подсказка: Коды зависят от времени. Будьте уверены, что на вашем телефоне "
+"выставлено правильное местное время."
+
+#: page-config-all.php:379
+msgid "Your email is configured."
+msgstr "Ваш email настроен."
+
+#: page-config-all.php:390
+msgid ""
+"Once you have scanned the barcode, enter the 6-digit verification code "
+"generated by the Authenticator app."
+msgstr ""
+"После того, как вы отсканируете кода, введите 6-значный проверочный код, "
+"сгенерированный приложением Authenticator."
+
+#: page-config-all.php:395
+msgid "Code:"
+msgstr "Код:"
+
+#: page-config-app.php:7 page-config-overview.php:148
+msgid "App passwords"
+msgstr "Пароли приложений"
+
+#: page-config-app.php:8
+msgid ""
+"App passwords are used to access your account through apps such as Wordpress "
+"on an iPhone or Android or any apps use"
+msgstr ""
+"Пароли приложения используются для доступа к вашей учетной записи такими "
+"приложениями, как Wordpress для iPhone или Android. Или любых других."
+
+#: page-config-app.php:8
+msgid ""
+"We'll generate the app passwords for you, and you won't need to remember "
+"them."
+msgstr "Мы создадим пароли приложения для вас, вам не требуется их запоминать."
+
+#: page-config-app.php:16
+msgid "Name"
+msgstr "Имя"
+
+#: page-config-app.php:17
+msgid "Created"
+msgstr "Создано"
+
+#: page-config-app.php:18
+msgid "Last used"
+msgstr "Последний раз использовалось"
+
+#: page-config-app.php:19
+msgid "Access"
+msgstr "Доступ"
+
+#: page-config-app.php:32 wordpress-2-step-verification.php:670
+msgid "Revoke"
+msgstr "Отозвать"
+
+#: page-config-app.php:42
+msgid "You have no app passwords."
+msgstr "У вас нет паролей приложений."
+
+#: page-config-app.php:49
+msgid "Generate"
+msgstr "Сгененерировать"
+
+#: page-config-app.php:59
+msgid "Generated app password"
+msgstr "Созданный пароль приложения"
+
+#: page-config-app.php:63
+msgid "Your app password for your device"
+msgstr "Пароль приложения для вашего устройства"
+
+#: page-config-app.php:66
+msgid "How to use it"
+msgstr "Как этим пользоваться"
+
+#: page-config-app.php:67
+msgid ""
+"Go to the settings for your Wordpress Account in the application or device "
+"you are trying to set up. Replace your password with the 16-character "
+"password shown above."
+msgstr ""
+"Перейдите на странице вашей учетной записи в приложении или на устройстве и "
+"попробуйте настроить. Замените ваш пароль 16-символьным паролем, показанным "
+"ниже."
+
+#: page-config-app.php:68
+msgid ""
+"Just like your normal password, this app password grants complete access to "
+"your Wordpress Account. You won't need to remember it, so don't write it "
+"down or share it with anyone."
+msgstr ""
+"Как обычный пароль, эти пароли приложений дадут полный полный доступ к вашей "
+"учетной записи. Вам не требуется их помнить, поэтому не записывайте их и "
+"никому не показывайте."
+
+#: page-config-app.php:72 template/form-verify.php:60
+msgid "Done"
+msgstr "Готово"
+
+#: page-config-overview.php:7
+msgid "How to receive codes"
+msgstr "Как получить коды"
+
+#: page-config-overview.php:10
+msgid "Mobile application"
+msgstr "Мобильное приложение"
+
+#: page-config-overview.php:18
+msgid "Move to a different phone"
+msgstr "Перенести на другое устройство"
+
+#: page-config-overview.php:36
+msgid "Email"
+msgstr "Email"
+
+#: page-config-overview.php:47 wordpress-2-step-verification.php:904
+msgid "Edit"
+msgstr "Править"
+
+#: page-config-overview.php:49
+msgid "Remove"
+msgstr "Удалить"
+
+#: page-config-overview.php:63
+msgid "Printable backup codes"
+msgstr "Резервные коды для печати"
+
+#: page-config-overview.php:66 page-config-overview.php:135
+#: page-config-overview.php:152
+msgid "Warning:"
+msgstr "Предупреждение:"
+
+#: page-config-overview.php:67
+msgid ""
+"If your phone is unavailable, these codes will be the only way to sign in to "
+"your account."
+msgstr ""
+"Если ваш телефон недоступен, эти коды единственный путь войти в учетную "
+"запись."
+
+#: page-config-overview.php:68 page-config-overview.php:89
+#: page-config-overview.php:108 template/backup-codes.txt.php:33
+msgid "Keep them someplace accessible, like your wallet."
+msgstr "Храните их в доступном месте. В кошельке, например."
+
+#: page-config-overview.php:74
+#, php-format
+msgid "You have %s unused codes"
+msgstr "У вас есть %s неиспользованных кодов"
+
+#: page-config-overview.php:77
+msgid "Generated on:"
+msgstr "Создано:"
+
+#: page-config-overview.php:82
+msgid "Show backup codes"
+msgstr "Показать резервные коды"
+
+#: page-config-overview.php:89 page-config-overview.php:110
+#: template/backup-codes.txt.php:34
+msgid "Each code can be used only once."
+msgstr "Каждый код можно использовать только раз."
+
+#: page-config-overview.php:90
+msgid "Print"
+msgstr "Печать"
+
+#: page-config-overview.php:91
+msgid "Save to text file"
+msgstr "Соханить в текстовый файл"
+
+#: page-config-overview.php:95 template/backup-codes.txt.php:8
+msgid "BACKUP VERIFICATION CODES"
+msgstr "РЕЗЕРВНЫЕ ПРОВЕРОЧНЫЕ КОДЫ"
+
+#: page-config-overview.php:102 template/backup-codes.txt.php:29
+msgid "Running out of backup codes? Generate new ones:"
+msgstr "Закончились резевные коды? Создайте новые:"
+
+#: page-config-overview.php:106 page-config-overview.php:121
+#: template/backup-codes.txt.php:31
+msgid "Only the latest set of backup codes will work."
+msgstr "Только последний набор резервных кодов будет работать."
+
+#: page-config-overview.php:117
+msgid "Running out of backup codes? Generate new ones at:"
+msgstr "Закончились резервные коды? Создайте их заново здесь:"
+
+#: page-config-overview.php:124
+msgid "Generate new codes"
+msgstr "Создать новые коды"
+
+#: page-config-overview.php:142
+msgid "Trusted"
+msgstr "Доверенный"
+
+#: page-config-overview.php:142
+msgid "Untrusted"
+msgstr "Недоверенный"
+
+#: page-config-overview.php:153
+msgid "App passwords are used in wordpress application."
+msgstr "Парольи приложений используются в приложениях wordpress."
+
+#: page-config-overview.php:160
+msgid "None"
+msgstr "Нет"
+
+#: page-config-overview.php:162
+#, php-format
+msgid "%s password"
+msgstr "Пароль %s"
+
+#: page-config-overview.php:176
+msgid "Move Authenticator to a different phone"
+msgstr "Переместить Authenticator на другой телефон"
+
+#: page-config-overview.php:180
+msgid ""
+"We only support a single Authenticator app configured for your account. "
+"Please select your new phone type:"
+msgstr ""
+"Мы поддерживаем настройку только одного приложение Authenticator на учетную "
+"запись. Пожалуйста выберите тип нового телефона:"
+
+#: page-config-overview.php:184
+msgid "Please select one phone type bellow"
+msgstr "Пожалуйста, выберите тип вашего телефона ниже"
+
+#: page-config-overview.php:211
+msgid "Once you complete this setup,"
+msgstr "Как только вы закончите настройку,"
+
+#: page-config-overview.php:212
+msgid "the codes generated by your old Authenticator app will stop working"
+msgstr "коды вашего старого приложения Authenticator перестанут работать"
+
+#: page-config-overview.php:219
+msgid "Continue"
+msgstr "Продолжить"
+
+#: page-config-overview.php:231 page-config.php:29
+#: wordpress-2-step-verification.php:864
+msgid "Turn off 2-step verification"
+msgstr "Выключить 2-факторную верификацию"
+
+#: page-config-overview.php:235
+msgid ""
+"You will no longer be asked for verification codes when you sign in to your "
+"account"
+msgstr ""
+"Вам больше не потребуется воодить проверочный код для вашей учетной записи"
+
+#: page-config-overview.php:244
+msgid "Also clear my 2-step verification settings"
+msgstr "Также очистить мои настройки 2-факторной верификации"
+
+#: page-config-overview.php:250
+msgid "Turn off"
+msgstr "Выключить"
+
+#: page-config.php:9 wordpress-2-step-verification.php:681
+msgid "Wordpress 2-step verification"
+msgstr "2-факторная верификация Wordpress"
+
+#: page-config.php:14
+#, php-format
+msgid "2-step verification is <strong>%s</strong> for %s"
+msgstr "2-факторная верификация <strong>%s</strong> для %s"
+
+#: template/backup-codes.txt.php:26
+msgid "Date:"
+msgstr "Дата:"
+
+#: template/form-others.php:13
+msgid "Get a verification code from the <b>Google Authenticator</b> app"
+msgstr "Получите проверочный код из приложения <b>Google Authenticator</b>"
+
+#: template/form-others.php:26
+#, php-format
+msgid "Get an email with a verification code at %s"
+msgstr "Получите email c проверочным кодом на %s"
+
+#: template/form-others.php:36
+msgid "Use backup code"
+msgstr "Используйте резервные коды"
+
+#: template/form-others.php:47
+msgid "Manual recovery"
+msgstr "Восстановление вручную"
+
+#: template/form-others.php:48
+msgid "You will need ftp access to upload verification file"
+msgstr "Вот потребуется ftp-доступ для загрузки проверочного файла."
+
+#: template/form-recovery.php:11
+msgid "Upload an HTML file to your site"
+msgstr "Загрузите HTML-файл на ваш сайт"
+
+#: template/form-recovery.php:14
+msgid "Download"
+msgstr "Скачать"
+
+#: template/form-recovery.php:14
+msgid "this HTML verification file"
+msgstr "этот проверочный HTML файл"
+
+#: template/form-recovery.php:15
+#, php-format
+msgid "<b>Upload</b> the file to Wordpress directory (same directory with %s)"
+msgstr "<b>Загрузить</b> файл в директорию Wordpress (туда, где %s)"
+
+#: template/form-recovery.php:16
+msgid "<b>Click</b> Verify below"
+msgstr "<b>Нажмите</b> Проверить ниже"
+
+#: template/form-verify.php:29
+msgid "Enter your backup code"
+msgstr "Введите ваш резервный код"
+
+#: template/form-verify.php:31
+msgid "Enter a verification code"
+msgstr "Введите проверочный код"
+
+#: template/form-verify.php:38
+msgid "Enter the 6-digit code"
+msgstr "Введите 6-значный код"
+
+#: template/form-verify.php:40
+msgid ""
+"Get a verification code from the <strong>Google Authenticator</strong> app"
+msgstr ""
+"Получите проверочный код из приложения <strong>Google Authenticator</strong>"
+
+#: template/form-verify.php:42
+#, php-format
+msgid "An email with a verification code was just sent to <strong>%s</strong>"
+msgstr "Email с проверочным кодом только что отправлен на <strong>%s</strong>"
+
+#: template/form-verify.php:45
+msgid "Enter the 8-digit code"
+msgstr "Введите 8-значный код"
+
+#: template/form-verify.php:66
+msgid "Remember this computer for 30 days."
+msgstr "Запомнить этот компьютер на 30 дней."
+
+#: template/others-link.php:5
+msgid "Try another way to sign in"
+msgstr "Попробуйте другой способ войти"
+
+#: template/wp2sv.php:10
+msgid "Enter verification code"
+msgstr "Введите проверочный код"
+
+#: template/wp2sv.php:100 wordpress-2-step-verification.php:681
+#: wordpress-2-step-verification.php:698 wordpress-2-step-verification.php:856
+#: wordpress-2-step-verification.php:898
+msgid "2-Step Verification"
+msgstr "2-факторная верификация"
+
+#: template/wp2sv.php:105
+msgid ""
+"To sign in to your Wordpress Account, choose a task from the list below."
+msgstr "Чтобы войти в учетную запись, выберите действие из этого списка."
+
+#: template/wp2sv.php:108
+msgid "To recover access to your Wordpress Account, complete the task below."
+msgstr "Чтобы восстановить доступ к вашей учетной записи, выполните это."
+
+#: template/wp2sv.php:111
+msgid "To help keep your account safer, complete the task below."
+msgstr "Чтобы сохранить вашу учетную запись в безопасности, выполните это."
+
+#: template/wp2sv.php:133
+msgid "Use a different account"
+msgstr "Используйте другую учетную запись"
+
+#: wordpress-2-step-verification.php:175 wordpress-2-step-verification.php:319
+msgid "The e-mail could not be sent."
+msgstr "Не удается отправить e-mail."
+
+#: wordpress-2-step-verification.php:175
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr "Возможная причина: на вашем сервере отключена функция mail()..."
+
+#: wordpress-2-step-verification.php:178
+msgid "Total emails can send per day has reached limit!"
+msgstr "Общее количество email в день достигло предела!"
+
+#: wordpress-2-step-verification.php:195 wordpress-2-step-verification.php:209
+msgid "The code you entered didn't verify."
+msgstr "Введенный вами код не подтвержден."
+
+#: wordpress-2-step-verification.php:199
+msgid "Too many failed attempts with backup codes."
+msgstr "Слишком много неуспешных попыток использования резервных кодов."
+
+#: wordpress-2-step-verification.php:207
+msgid "The code you entered have already used."
+msgstr "Введенный код уже использован."
+
+#: wordpress-2-step-verification.php:311
+msgid "Email is invalid"
+msgstr "Неправильный email"
+
+#: wordpress-2-step-verification.php:317
+msgid "Code sent."
+msgstr "Код отправлен."
+
+#: wordpress-2-step-verification.php:336
+msgid "Your device is configured."
+msgstr "Ваше устройство настроено."
+
+#: wordpress-2-step-verification.php:342
+msgid "The code is incorrect. Try again."
+msgstr "Неправильный код. Попробуйте ещё раз."
+
+#: wordpress-2-step-verification.php:463
+msgid "mobile"
+msgstr "мобильный"
+
+#: wordpress-2-step-verification.php:664
+msgid ""
+"Removing this data will turn off 2-step verification. Are you sure you want "
+"to delete this information?"
+msgstr ""
+"Удаление этих данных отключит 2-факторную верификацию. Вы уверены, что "
+"хотите удалить их?"
+
+#: wordpress-2-step-verification.php:770
+msgid "ON"
+msgstr "ВКЛЮЧЕНА"
+
+#: wordpress-2-step-verification.php:772
+msgid "OFF"
+msgstr "ВЫКЛЮЧЕНА"
+
+#: wordpress-2-step-verification.php:839
+msgid "Your verification code"
+msgstr "Ваш проверочный код"
+
+#: wordpress-2-step-verification.php:844
+#, php-format
+msgid "Your verification code is %s"
+msgstr "Ваш проверочный код %s"
+
+#: wordpress-2-step-verification.php:860 wordpress-2-step-verification.php:902
+msgid "Status:"
+msgstr "Состояние:"
+
+#: wordpress-2-step-verification.php:870
+msgid "Only the user can turn on 2-step verification"
+msgstr "Только пользователь может включить 2-факторную аутентификацию"
+
+#: wordpress-2-step-verification.php:885
+msgid ""
+"Are you sure to turn off 2-step verification? Only the user can turn it on "
+"again!"
+msgstr ""
+"Вы уверены, что хотите отключить 2-факторную верификацию? Только "
+"пользователь сможет включить её снова!"

@@ -1,0 +1,649 @@
+.wp2sv-config {
+  font-size: small;
+  .fixed, .clearfix, .clear{
+    clear: both;
+    float:none;
+  }
+  h1 {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 1;
+    margin: 30px 0 18px;
+  }
+  h2 {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: 18px;
+  }
+  h3 {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 18px;
+  }
+  a:focus{
+    box-shadow: none;
+  }
+  .warning, .w2sverror {
+    color: #F00;
+    font-size: small;
+  }
+  p{
+    margin-top:0;
+  }
+  input[type=checkbox]{
+    margin: 0;
+  }
+
+  .default-content-area {
+    max-width: 940px;
+    min-width: 440px;
+  }
+  .inactive {
+    display: none;
+  }
+
+
+  ol.process-map {
+    border-top: 1px solid #3F3F3F;
+    list-style-type: none;
+    margin: -6px 0 0;
+    padding: 8px 0 0;
+    width: 100%;
+  }
+  ol.process-map li {
+    display: inline;
+    font-size: larger;
+    margin-right: 2em;
+  }
+  .pm-current {
+    background: url(images/process_map_pointer.png) no-repeat center top;
+    color: #22F;
+    padding-top: 9px;
+  }
+  .pm-incomplete, .pm-complete {
+    color: #666;
+  }
+  .pm-subheader {
+    margin: 18px 0 25px;
+  }
+  #config-container {
+    min-height: 60px;
+  }
+  #button-container {
+    margin-top: 15px;
+  }
+  #wp2sv-config-section input[type="submit"],#wp2sv-config-section input[type="button"]{
+    border: thin outset;
+    color: black;
+    cursor: pointer;
+  }
+  #wp2sv-config-section button[disabled]:active,#wp2sv-config-section button[disabled],
+  #wp2sv-config-section input[type="reset"][disabled]:active,
+  #wp2sv-config-section input[type="reset"][disabled],
+  #wp2sv-config-section input[type="button"][disabled]:active,
+  #wp2sv-config-section input[type="button"][disabled],
+  #wp2sv-config-section select[disabled] > input[type="button"],
+  #wp2sv-config-section select[disabled] > input[type="button"]:active,
+  #wp2sv-config-section input[type="submit"][disabled]:active,
+  #wp2sv-config-section input[type="submit"][disabled] {
+    color: gray;
+    cursor: inherit;
+  }
+  #button-container a {
+    margin-left: 10px;
+  }
+
+  .config-section {
+    margin: 15px 0;
+  }
+  .heading {
+    font-weight: bold;
+  }
+  .border-box {
+    border: 1px solid #CCC;
+    padding: 8px;
+    width: 470px;
+  }
+  .mobile-app-step, .phone-test {
+    margin-top: 10px;
+    padding: 12px 10px 8px;
+  }
+  .hidden {
+    visibility: hidden;
+  }
+
+
+  .inactive-text {
+    color: #666;
+  }
+  .active-text {
+    color: #000;
+  }
+  .icon {
+    float: left;
+  }
+
+
+
+  .icon-primaryphone {
+    background: url(images/phone-b48.png) no-repeat left top;
+  }
+
+  .icon-checkmark {
+    background: url(images/checkmark-g16.png) no-repeat left top;
+  }
+  .icon-loading {
+    background: url(images/loading.gif) no-repeat left top;
+  }
+
+  .smallicon {
+    width: 16px;
+  }
+  .icon-content {
+    padding-left: 57px;
+    min-height: 62px;
+    _height: 62px;
+  }
+  .smallicon-content {
+    padding-left: 22px;
+    padding-top: 2px;
+    min-height: 16px;
+  }
+  .icon-content p, .smallicon-content p {
+    margin: 0 0 .7em;
+  }
+
+  .trusted-computer-emphasis {
+    font-style: italic;
+  }
+  .bolder {
+    font-weight: bolder;
+  }
+  .example {
+    color: #666;
+    font-size: smaller;
+    padding-left: 10px;
+  }
+
+  .remember-heading {
+    font-weight: bold;
+    font-size: 130%;
+  }
+  .remember-text {
+    padding-bottom: 12px;
+  }
+  .remember-box {
+    padding-top: 20px;
+  }
+
+  #confirm-action {
+    width: 80%;
+  }
+  .confirm-heading {
+    font-size: larger;
+    font-weight: bold;
+    line-height: 1;
+    padding-bottom: 8px;
+  }
+
+
+
+
+
+
+
+  .g-button-activate {
+    background-color: #D14836;
+    color: white;
+    border-radius: 4px;
+    border: solid 1px #AAA;
+    box-shadow: inset 0 1px 1px rgba(255,255,255,0.5);
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 140%;
+    font-weight: bold;
+    margin: 4px 4px;
+    padding: 5px 15px !important;
+    display: inline;
+  }
+
+
+
+  .section-heading {
+    margin: 12px 0 20px;
+  }
+  .section-label {
+    float: left;
+    width: 45%;
+    margin-top:0;
+    h3{
+      margin-top:0;
+    }
+  }
+  .section-data {
+    float: left;
+    margin-left: 3%;
+    width: 52%;
+    padding-bottom: 2px;
+  }
+  .section-spacer {
+    clear: both;
+    padding-top: 16px;
+  }
+  .section-separator {
+    border-bottom: 1px solid #CCC;
+    clear: both;
+    margin-bottom: 18px;
+    padding-top: 20px;
+  }
+  .edit-links-container {
+    padding-left: 20px;
+  }
+  #printable-warning {
+    font-size: smaller;
+    font-weight: normal;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .wp2sv-buttons{
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(center top , #f5f5f5, #f1f1f1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    color: #444;
+    cursor: default;
+    font-size: 12px;
+    font-weight: bold;
+    height: 29px;
+    line-height: 27px;
+    margin: 0 16px 0 0;
+    min-width: 72px;
+    outline: 0 none;
+    padding: 4px 8px;
+  }
+
+
+
+  .phone-usage-message {
+    font-size: smaller;
+    color: gray;
+    padding-left: 1em;
+  }
+
+  .verify-code-widget {
+    margin: 15px 0 5px;
+  }
+  .verify-code-widget label {
+    margin-right: 6px;
+  }
+  .verify-code-widget input {
+    margin-right: 10px;
+  }
+  .phone-widget table {
+    margin: 5px 0;
+  }
+  .send-code-container {
+    margin: 15px 0 18px;
+  }
+  span.box {
+    display: inline-block;
+  }
+
+
+  a img {
+    border: none;
+  }
+  ol.app-instructions {
+    line-height: normal;
+    list-style-position: inside;
+    margin-left: 10px;
+    padding: 0;
+  }
+  ol.phone-test-steps {
+    line-height: normal;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+  }
+  .ml-list-item {
+    display: inline-block;
+    line-height: normal;
+    margin: 0 !important;
+    vertical-align: text-top;
+    width: 440px;
+  }
+  .icon-content .ml-list-item {
+    width: 380px;
+  }
+
+
+  .smaller {
+    font-size: smaller;
+  }
+  .mobile-app-step p {
+    margin: 0 0 .7em;
+  }
+  .qr-box {
+    margin: 10px 50px;
+  }
+  .smallicon-content .qr-box {
+    text-align: left;
+  }
+  .blackberry-cant-install-msg {
+    margin-left: 1em;
+  }
+  .secret-key-box {
+    background-color: #f9edbe;
+    padding: 10px;
+    text-align: center;
+    width: 20em;
+  }
+  .secret-key {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+  .manual-zippy {
+    margin: 10px 0 25px;
+  }
+  .subtitle {
+    color: #666;
+  }
+  .border-box .icon-content {
+    min-height: 48px;
+  }
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #1155cc;
+  }
+
+
+  .verify-tip {
+    margin-top: .7em;
+  }
+
+
+
+  .chooseapptype-dialog {
+    width: 450px;
+  }
+
+  .modal-dialog-bg {
+    background: none repeat scroll 0 0 #fff;
+    left: 0;
+    position: fixed;
+    z-index: 9991;
+    top: 0;
+  }
+
+  .modal-dialog{
+    background: none repeat scroll 0 0 padding-box #fff;
+    border: 1px solid rgba(0, 0, 0, 0.333);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    outline: 0 none;
+    position: absolute;
+    color: #000;
+    padding: 30px 42px;
+    z-index: 9992 !important;
+  }
+
+  .modal-dialog-content {
+    background-color: #fff;
+    line-height: 1.4em;
+  }
+  .modal-dialog h2{
+    color: #222;
+    font-size: 1.54em;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 0 0.46em;
+  }
+  .modal-dialog p{
+    line-height: 17px;
+    margin: 0 0 1em;
+  }
+
+  .settings-apptype-selector-box {
+    margin: 10px 30px;
+  }
+
+  .settings-apptype-radio {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .modal-dialog-buttons {
+    margin-top: 16px;
+  }
+  .modal-dialog-buttons button {
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(center top , #f5f5f5, #f1f1f1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    color: #444;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    height: 29px;
+    line-height: 27px;
+    margin: 0 16px 0 0;
+    min-width: 72px;
+    outline: 0 none;
+    padding: 0 8px;
+  }
+  .modal-dialog-buttons .wp2sv-buttonset-action {
+    background-color: #4d90fe;
+    background-image: -moz-linear-gradient(center top , #4d90fe, #4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+  }
+  .modal-dialog-title-close {
+    cursor: pointer;
+    height: 11px;
+    opacity: 0.7;
+    padding: 17px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 11px;
+  }
+  .modal-dialog-title-close:after {
+    background: url("./images/close-x.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    content: "";
+    height: 11px;
+    position: absolute;
+    right: 17px;
+    width: 11px;
+  }
+  .sync-link {
+    background: url("./images/sync-time.png") no-repeat scroll 0 0 / cover  rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 10px;
+    left: 10px;
+    padding: 5px !important;
+    position: relative;
+    text-indent: -9999px;
+    top: 9px;
+    width: 10px;
+  }
+  .sync-link.loading{
+    background: url("./images/sync-time.gif") no-repeat scroll 0 0 / cover  rgba(0, 0, 0, 0);
+  }
+
+  .list-backup-codes{
+    width: 30%;
+    float:left;
+  }
+  .list-backup-codes .code-used{
+    position: relative;
+  }
+  .list-backup-codes .code-used:after{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 45%;
+    bottom: 35%;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    content:"";
+  }
+  #printable-codes p{
+    margin: 0;
+  }
+  .wp2sv-app-passwords{
+    width: 100%;
+    .app-passwords{
+      margin: 0 auto;
+      max-width: 660px;
+      background-color: white;
+      border-radius: 3px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+      box-sizing: border-box;
+      text-align: left;
+      .pd{
+        padding: 30px;
+      }
+    }
+    .app-list-passwords{
+      .revoke-btn{
+        display: inline-block;
+        position: relative;
+        border-radius: 3px;
+        cursor: default;
+        font-weight: bold;
+        height: 28px;
+        line-height: 28px;
+        margin-right: 16px;
+        outline: 0 none;
+        text-align: center;
+        white-space: nowrap;
+        background-color: #fff;
+        background-image: -moz-linear-gradient(center top , transparent, transparent);
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+        color: #404040;
+        font-size: 13px;
+        padding: 0 15px;
+        text-transform: uppercase;
+        &:hover{
+          background: #fff;
+          box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+          border: 1px solid #b8b8b8;
+        }
+      }
+      table{
+        width: 100%;
+        border-collapse: collapse;
+        .row{
+          border-bottom: 1px solid #e5e5e5;
+        }
+        td{
+          padding: 12px 0;
+        }
+        .col-name{
+          width:30%;
+          padding-left: 4px;
+        }
+        .col-created{
+          width: 25%;
+          padding-left: 20px;
+        }
+        .col-last-used{
+          width: 25%;
+          padding-left: 20px;
+        }
+        .col-access{
+          width:20%;
+          padding-left: 20px;
+        }
+      }
+    }
+    .app-add-password{
+      line-height: 42px;
+      margin: 20px 0;
+      span{margin-right:16px;}
+      .app-name{
+        margin: 0;
+        min-width: 200px;
+        padding-right: 24px;
+        width: 50%;
+      }
+      .generate{
+        border-radius: 3px;
+        cursor: default;
+        font-weight: bold;
+        margin-right: 16px;
+        text-transform: uppercase;
+        background: #427fed none repeat scroll 0 0;
+        opacity: 0.5;
+        font-size: 13px;
+        height: 28px;
+        line-height: 28px;
+        padding: 0 15px;
+        border: 1px solid transparent;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+        color: #fff;
+        min-width: 34px;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        white-space: nowrap;
+        outline: 0 none;
+        &.enabled{
+          opacity: 1;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  #app-password-created{
+    .modal-dialog-title{
+      background: #cccccc none repeat scroll 0 0;
+      margin-left: -42px;
+      margin-right: -42px;
+      margin-top: -30px;
+      padding: 20px;
+      .modal-dialog-title-text{
+        text-align: center;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+      }
+    }
+    .content{
+      max-width: 500px;
+      padding-top:20px;
+      .apc-title{
+        font-weight: bold;
+        margin-bottom: 16px;
+      }
+      .apc-pass{
+        padding: 16px 0 32px;
+        .iZ {
+          background: #ffe166 none repeat scroll 0 0;
+          border: 1px dashed rgba(0, 0, 0, 0.1);
+          font-family: monospace;
+          font-size: 24px;
+          padding: 12px;
+        }
+        .jZ{
+          padding-left: 1ex;
+          &:first-child{
+            padding-left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+

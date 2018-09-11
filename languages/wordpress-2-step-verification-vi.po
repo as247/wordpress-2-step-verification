@@ -1,0 +1,927 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress 2-step verification\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-23 23:13+0700\n"
+"PO-Revision-Date: 2016-10-23 23:14+0700\n"
+"Last-Translator: As247 <as247@vui360.com>\n"
+"Language-Team: \n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/recovery.php:34
+#, php-format
+msgid "Could not verify the file, please make sure the file is uploaded to %s"
+msgstr "Không thể xác minh, hãy chắc rằng tệp xác minh đã được tải lên %s"
+
+#: page-config-all.php:6
+msgid "Set up 2-step verification for"
+msgstr "Thiết lập xác minh 2 bước cho"
+
+#: page-config-all.php:13
+msgid "Set up your email"
+msgstr "Thiết lập email của bạn"
+
+#: page-config-all.php:14
+msgid "Set up your phone"
+msgstr "Thiết lập điện thoại của bạn"
+
+#: page-config-all.php:16
+msgid "Verify computer"
+msgstr "Xác minh máy tính"
+
+#: page-config-all.php:17
+msgid "Activate"
+msgstr "Kích hoạt"
+
+#: page-config-all.php:24
+msgid ""
+"Choose how you'd like to get verification codes &mdash; in an email,or from "
+"an application on your smartphone."
+msgstr ""
+"Chọn cách bạn muốn nhận được mã xác minh &mdash; sử dụng email, hoặc từ một "
+"ứng dụng trên điện thoại thông minh của bạn."
+
+#: page-config-all.php:31
+msgid "Choose one:"
+msgstr "Lựa chọn một:"
+
+#: page-config-all.php:32
+msgid "Smartphone application"
+msgstr "Ứng dụng điện thoại thông minh"
+
+#: page-config-all.php:49
+msgid "Back"
+msgstr "Trước"
+
+#: page-config-all.php:51
+msgid "Next"
+msgstr "Tiếp"
+
+#: page-config-all.php:55 page-config-all.php:163 page-config.php:31
+msgid "Turn on 2-step verification"
+msgstr "Bật xác minh 2 bước"
+
+#: page-config-all.php:58 page-config-overview.php:220
+#: page-config-overview.php:251
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: page-config-all.php:62
+msgid ""
+"Add an email address where Wordpress 2-step verification can send codes."
+msgstr "Thêm địa chỉ email để chúng tôi có thể gửi mã xác thực"
+
+#: page-config-all.php:76
+msgid "Enter your email address"
+msgstr "Nhập địa chỉ email của bạn"
+
+#: page-config-all.php:83
+msgid "ex:"
+msgstr ""
+
+#: page-config-all.php:83
+msgid "example@domain.com"
+msgstr ""
+
+#: page-config-all.php:93
+msgid "Let's test the email."
+msgstr "Hãy kiểm tra địa chỉ email"
+
+#: page-config-all.php:97
+msgid "Click \"Send code\" and check your email for the verification code."
+msgstr "Bấm \"Gửi mã\" và kiểm tra mã xác thực trong email của bạn"
+
+#: page-config-all.php:99
+msgid "Send code"
+msgstr "Gửi mã"
+
+#: page-config-all.php:111
+msgid "Enter the code you receive on your email"
+msgstr "Nhập mã bạn nhận được qua email"
+
+#: page-config-all.php:115
+msgid "Code"
+msgstr "Mã"
+
+#: page-config-all.php:121 page-config-all.php:399
+msgid "Verify and save"
+msgstr "Xác minh và lưu"
+
+#: page-config-all.php:124 page-config-all.php:401
+#: template/form-recovery.php:24
+msgid "Verify"
+msgstr "Xác minh"
+
+#: page-config-all.php:144
+msgid ""
+"Make this a <span class=\"trusted-computer-emphasis\">trusted computer</span>"
+msgstr ""
+"Xác nhận đây là <span class=\"trusted-computer-emphasis\">máy tính đáng tin "
+"cậy</span>"
+
+#: page-config-all.php:149 page-config-overview.php:136
+msgid ""
+"Trusted computers only ask for verification codes once every 30 days. If you "
+"lose your phone, you might be able to access your account from a trusted "
+"computer without needing a code. We recommend that you make this a trusted "
+"computer only if you trust the people who have access to it."
+msgstr ""
+"Các máy tính đáng tin cậy chỉ hỏi mã sau 30 ngày. Nếu bạn bị mất điện thoại "
+"bạn vẫn có thể truy cập vào tài khoản của bạn từ một máy tính đáng tin cậy "
+"mà không cần nhập mã. Chúng tôi khuyên bạn chỉ nên tin cậy máy tính này nếu "
+"bạn tin những người có thể dùng máy tính của bạn"
+
+#: page-config-all.php:154 page-config-overview.php:131
+msgid "Trust this computer"
+msgstr "Tin tưởng máy tính này"
+
+#: page-config-all.php:156
+msgid ""
+"You can always change which computers you trust in your Account settings."
+msgstr ""
+"Bạn luôn có thể thay đổi các máy tính mà bạn tin tưởng trong cài đặt tài "
+"khoản của bạn."
+
+#: page-config-all.php:167
+msgid ""
+"You will be asked for a code whenever you sign in from an unrecognized "
+"computer or device."
+msgstr ""
+"Bạn sẽ được hỏi mã xác minh mỗi khi đăng nhập từ một máy tính hoặc thiết bị "
+"lạ"
+
+#: page-config-all.php:174 page-config-all.php:252 page-config-all.php:321
+msgid "Install the verification application for"
+msgstr "Cài đặt ứng dụng xác thực cho"
+
+#: page-config-all.php:179
+msgid "On your phone, go to the Google Play Store."
+msgstr "Trên điện thoại của bạn, truy cập Cửa hàng Google Play"
+
+#: page-config-all.php:182 page-config-all.php:260
+msgid "Search for <b>Google Authenticator</b>."
+msgstr "Tìm kiếm <b>Google Authenticator</b>."
+
+#: page-config-all.php:185
+msgid "Download from the Google Play Store"
+msgstr "Tải xuống từ Cửa hàng Google Play"
+
+#: page-config-all.php:188
+msgid "Download and install the application."
+msgstr "Tải xuống và cài đặt ứng dụng."
+
+#: page-config-all.php:193 page-config-all.php:269 page-config-all.php:336
+msgid "Now open and configure Google Authenticator."
+msgstr "Bây giờ hãy mở và định cấu hình Google Authenticator"
+
+#: page-config-all.php:197
+msgid "In Google Authenticator, touch Menu and select \"Set up account.\" "
+msgstr ""
+"Trong Google Authenticator, chạm vào Menu và chọn \"Thiết lập tài khoản\""
+
+#: page-config-all.php:200
+msgid "Select \"Scan a barcode.\""
+msgstr "Chọn \"Quét mã vạch\"."
+
+#: page-config-all.php:203 page-config-all.php:276
+msgid "Use your phone's camera to scan this barcode."
+msgstr "Sử dụng máy ảnh của điện thoại của bạn để quét mã vạch này."
+
+#: page-config-all.php:214 page-config-all.php:287
+msgid "Can't scan the barcode?"
+msgstr "Bạn không thể quét mã vạch? "
+
+#: page-config-all.php:218
+msgid "In Google Authenticator, touch Menu and select \"Set up account.\""
+msgstr ""
+"Trong Google Authenticator, chạm vào Menu và chọn \"Thiết lập tài khoản\""
+
+#: page-config-all.php:221
+msgid "Select \"Enter provided key\""
+msgstr "Chọn \"Nhập khóa được cung cấp\" "
+
+#: page-config-all.php:224 page-config-all.php:343
+msgid "In \"Enter account name\" type your wordpress username."
+msgstr "Trong \"Nhập tên tài khoản\", nhập tên tài khoản wordpress của bạn "
+
+#: page-config-all.php:227
+msgid "In \"Enter your key\" type your secret key:"
+msgstr "Trong \"Nhập khóa\", nhập khóa bí mật của bạn:"
+
+#: page-config-all.php:233 page-config-all.php:306 page-config-all.php:352
+msgid "Spaces don't matter."
+msgstr "Dấu cách không quan trọng"
+
+#: page-config-all.php:238
+msgid "Key type: make sure \"Time-based\" is selected."
+msgstr "Loại khóa: đảm bảo \"Theo thời gian\" được chọn. "
+
+#: page-config-all.php:241
+msgid "Tap Add."
+msgstr "Nhấn Thêm. "
+
+#: page-config-all.php:257
+msgid "On your iPhone, tap the App Store icon."
+msgstr "Trên iPhone của bạn, chạm vào biểu tượng App Store."
+
+#: page-config-all.php:262
+msgid "Download from the App Store"
+msgstr "Tải xuống từ App Store"
+
+#: page-config-all.php:265
+msgid "Tap the app, and then tap Free to download and install it."
+msgstr ""
+"Chạm vào ứng dụng, sau đó chạm Miễn phí để tải xuống và cài đặt ứng dụng đó"
+
+#: page-config-all.php:273
+msgid "In Google Authenticator, tap \"+\", and then \"Scan Barcode.\" "
+msgstr "Trong Google Authenticator, nhấn vào \"+\", sau đó \"Quét mã vạch\". "
+
+#: page-config-all.php:291
+msgid "In Google Authenticator, tap +."
+msgstr "Trong Google Authenticator, chạm +."
+
+#: page-config-all.php:294
+msgid "Key type: make sure \"Time-based\" is selected. "
+msgstr "Loại khóa: đảm bảo \"Theo thời gian\" được chọn. "
+
+#: page-config-all.php:297
+msgid "In \"Account\" type your wordpress username."
+msgstr "Trong \"Tài khoản\", nhập tên người dùng wordpress của bạn"
+
+#: page-config-all.php:300
+msgid "In \"Key\" type your secret key:"
+msgstr "Trong \"Khóa\", nhập khóa bí mật của bạn:"
+
+#: page-config-all.php:311
+msgid "Tap Done."
+msgstr "Chạm Hoàn tất."
+
+#: page-config-all.php:326
+msgid "On your phone, open a web browser."
+msgstr "Trên điện thoại của bạn, mở trình duyệt web."
+
+#: page-config-all.php:329
+msgid "Go to <strong>m.google.com/authenticator</strong>"
+msgstr "Truy cập <strong>m.google.com/authenticator</strong>"
+
+#: page-config-all.php:332
+msgid "Download and install the Google Authenticator application."
+msgstr "Tải xuống và cài đặt ứng dụng Google Authenticator."
+
+#: page-config-all.php:340
+msgid "In Google Authenticator, select Manual key entry."
+msgstr "Trong Google Authenticator, chọn nhập khóa Thủ công."
+
+#: page-config-all.php:346
+msgid "In \"Enter key\" type your secret key:"
+msgstr "Trong \"Nhập khóa\", nhập khóa bí mật của bạn: "
+
+#: page-config-all.php:357
+msgid "Choose Time-based type of key."
+msgstr "Chọn loại khóa dựa trên Thời gian."
+
+#: page-config-all.php:360
+msgid "Tap Save."
+msgstr "Chạm Lưu. "
+
+#: page-config-all.php:367
+#, php-format
+msgid "Your %s device is configured"
+msgstr "Thiết bị %s của bạn được cấu hình"
+
+#: page-config-all.php:371 page-config-all.php:383
+#: wordpress-2-step-verification.php:337
+msgid "Click Next to continue."
+msgstr "Bấm Next để tiếp tục."
+
+#: page-config-all.php:375
+msgid ""
+"Tip: Codes are time-dependent. Make sure your phone is set to the correct "
+"local time."
+msgstr ""
+"Mẹo: Các mã phụ thuộc vào thời gian. Đảm bảo rằng điện thoại của bạn được "
+"đặt chính xác theo giờ địa phương. "
+
+#: page-config-all.php:379
+msgid "Your email is configured."
+msgstr "Email của bạn được thiết lập"
+
+#: page-config-all.php:390
+msgid ""
+"Once you have scanned the barcode, enter the 6-digit verification code "
+"generated by the Authenticator app."
+msgstr ""
+"Sau khi bạn đã quét mã vạch, hãy nhập mã xác minh gồm 6 chữ số do ứng dụng "
+"Authenticator tạo. "
+
+#: page-config-all.php:395
+msgid "Code:"
+msgstr "Mã"
+
+#: page-config-app.php:7 page-config-overview.php:148
+msgid "App passwords"
+msgstr "Mật khẩu ứng dụng"
+
+#: page-config-app.php:8
+msgid ""
+"App passwords are used to access your account through apps such as Wordpress "
+"on an iPhone or Android or any apps use"
+msgstr ""
+"Mật khẩu ứng dụng dùng để truy cập tài khoản của bạn thông qua các ứng dụng "
+"như Wordpress trên iPhone hoặc Anroid hoặc bất kỳ ứng dụng nào sử dụng"
+
+#: page-config-app.php:8
+msgid ""
+"We'll generate the app passwords for you, and you won't need to remember "
+"them."
+msgstr ""
+"Chúng tôi sẽ tạo mật khẩu ứng dụng cho bạn, và bạn không cần phải ghi nhớ nó."
+
+#: page-config-app.php:16
+msgid "Name"
+msgstr "Tên"
+
+#: page-config-app.php:17
+msgid "Created"
+msgstr "Đã tạo"
+
+#: page-config-app.php:18
+msgid "Last used"
+msgstr "Sử dụng lần cuối"
+
+#: page-config-app.php:19
+msgid "Access"
+msgstr "Truy cập"
+
+#: page-config-app.php:32 wordpress-2-step-verification.php:670
+msgid "Revoke"
+msgstr "Thu hồi"
+
+#: page-config-app.php:42
+msgid "You have no app passwords."
+msgstr "Bạn không có mật khẩu ứng dụng nào."
+
+#: page-config-app.php:49
+msgid "Generate"
+msgstr "Tạo"
+
+#: page-config-app.php:59
+msgid "Generated app password"
+msgstr "Mật khẩu ứng dụng đã tạo"
+
+#: page-config-app.php:63
+msgid "Your app password for your device"
+msgstr "Mật khẩu ứng dụng dành cho thiết bị của bạn"
+
+#: page-config-app.php:66
+msgid "How to use it"
+msgstr "Cách sử dụng"
+
+#: page-config-app.php:67
+msgid ""
+"Go to the settings for your Wordpress Account in the application or device "
+"you are trying to set up. Replace your password with the 16-character "
+"password shown above."
+msgstr ""
+"Chuyển tới cài đặt cho tài khoản Wordpress của bạn trong ứng dụng hoặc thiết "
+"bị mà bạn đang cố gắng thiết lập. Thay thế mật khẩu của bạn bằng mật khẩu "
+"gồm 16 ký tự hiển thị bên trên."
+
+#: page-config-app.php:68
+msgid ""
+"Just like your normal password, this app password grants complete access to "
+"your Wordpress Account. You won't need to remember it, so don't write it "
+"down or share it with anyone."
+msgstr ""
+"Giống như mật khẩu thông thường của bạn, mật khẩu ứng dụng này cấp cho bạn "
+"toàn quyền truy cập vào tài khoản Wordpress của bạn. Bạn sẽ không cần nhớ "
+"mật khẩu này, do đó đừng viết ra hay chia sẻ với bất kỳ ai."
+
+#: page-config-app.php:72 template/form-verify.php:60
+msgid "Done"
+msgstr "Xong"
+
+#: page-config-overview.php:7
+msgid "How to receive codes"
+msgstr "Cách nhận mã"
+
+#: page-config-overview.php:10
+msgid "Mobile application"
+msgstr "Ứng dụng di động"
+
+#: page-config-overview.php:18
+msgid "Move to a different phone"
+msgstr "Chuyển sang điện thoại khác"
+
+#: page-config-overview.php:36
+msgid "Email"
+msgstr "Email"
+
+#: page-config-overview.php:47 wordpress-2-step-verification.php:904
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: page-config-overview.php:49
+msgid "Remove"
+msgstr "Xóa bỏ"
+
+#: page-config-overview.php:63
+msgid "Printable backup codes"
+msgstr "Mã dự phòng"
+
+#: page-config-overview.php:66 page-config-overview.php:135
+#: page-config-overview.php:152
+msgid "Warning:"
+msgstr "Cảnh báo:"
+
+#: page-config-overview.php:67
+msgid ""
+"If your phone is unavailable, these codes will be the only way to sign in to "
+"your account."
+msgstr ""
+"Nếu điện thoại và email của bạn không thể sử dụng được, những mã này là cách "
+"duy nhất để đăng nhập vào tài khoản của bạn. Hãy để nó ở nơi bạn dễ lấy, như "
+"trong ví của bạn"
+
+#: page-config-overview.php:68 page-config-overview.php:89
+#: page-config-overview.php:108 template/backup-codes.txt.php:33
+msgid "Keep them someplace accessible, like your wallet."
+msgstr ""
+"Hãy giữ các mã này ở nơi nào đó mà bạn dễ lấy, chẳng hạn như ví của bạn."
+
+#: page-config-overview.php:74
+#, php-format
+msgid "You have %s unused codes"
+msgstr "Bạn có %s mã chưa sử dụng"
+
+#: page-config-overview.php:77
+msgid "Generated on:"
+msgstr "Đã tạo vào:"
+
+#: page-config-overview.php:82
+msgid "Show backup codes"
+msgstr "Hiển thị mã dự phòng"
+
+#: page-config-overview.php:89 page-config-overview.php:110
+#: template/backup-codes.txt.php:34
+msgid "Each code can be used only once."
+msgstr "Mỗi mã chỉ được sử dụng một lần."
+
+#: page-config-overview.php:90
+msgid "Print"
+msgstr "In"
+
+#: page-config-overview.php:91
+msgid "Save to text file"
+msgstr "Lưu vào tệp văn bản"
+
+#: page-config-overview.php:95 template/backup-codes.txt.php:8
+msgid "BACKUP VERIFICATION CODES"
+msgstr "MÃ XÁC MINH DỰ PHÒNG"
+
+#: page-config-overview.php:102 template/backup-codes.txt.php:29
+msgid "Running out of backup codes? Generate new ones:"
+msgstr "Sắp hết mã dự phòng? Tạo mới chúng:"
+
+#: page-config-overview.php:106 page-config-overview.php:121
+#: template/backup-codes.txt.php:31
+msgid "Only the latest set of backup codes will work."
+msgstr "Chỉ bộ mã dự phòng mới nhất có thể sử dụng được"
+
+#: page-config-overview.php:117
+msgid "Running out of backup codes? Generate new ones at:"
+msgstr "Bạn sắp hết mã? Tạo mới tại:"
+
+#: page-config-overview.php:124
+msgid "Generate new codes"
+msgstr "Tạo mã mới"
+
+#: page-config-overview.php:142
+msgid "Trusted"
+msgstr "Tin tưởng"
+
+#: page-config-overview.php:142
+msgid "Untrusted"
+msgstr "Không tin tưởng"
+
+#: page-config-overview.php:153
+msgid "App passwords are used in wordpress application."
+msgstr "Mật khẩu ứng dụng được sử dụng trong ứng dụng wordpress"
+
+#: page-config-overview.php:160
+msgid "None"
+msgstr "Không có"
+
+#: page-config-overview.php:162
+#, php-format
+msgid "%s password"
+msgstr "%s mật khẩu"
+
+#: page-config-overview.php:176
+msgid "Move Authenticator to a different phone"
+msgstr "Chuyển Authenticator sang điện thoại khác "
+
+#: page-config-overview.php:180
+msgid ""
+"We only support a single Authenticator app configured for your account. "
+"Please select your new phone type:"
+msgstr ""
+"Chúng tôi chỉ hỗ trợ một ứng dụng Authenticator được định cấu hình cho tài "
+"khoản của bạn. Vui lòng chọn loại điện thoại mới của bạn: "
+
+#: page-config-overview.php:184
+msgid "Please select one phone type bellow"
+msgstr "Vui lòng chọn một loại điện thoại dưới đây"
+
+#: page-config-overview.php:211
+msgid "Once you complete this setup,"
+msgstr "Sau khi bạn hoàn tất thiết lập này,"
+
+#: page-config-overview.php:212
+msgid "the codes generated by your old Authenticator app will stop working"
+msgstr "các mã do ứng dụng Authenticator cũ của bạn tạo sẽ dừng hoạt động"
+
+#: page-config-overview.php:219
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#: page-config-overview.php:231 page-config.php:29
+#: wordpress-2-step-verification.php:864
+msgid "Turn off 2-step verification"
+msgstr "Tắt xác minh 2 bước"
+
+#: page-config-overview.php:235
+msgid ""
+"You will no longer be asked for verification codes when you sign in to your "
+"account"
+msgstr "Bạn sẽ không bị hỏi mã xác minh khi đăng nhập tài khoản của mình nữa"
+
+#: page-config-overview.php:244
+msgid "Also clear my 2-step verification settings"
+msgstr "Đồng thời xóa cài đặt xác minh 2 bước"
+
+#: page-config-overview.php:250
+msgid "Turn off"
+msgstr "Tắt"
+
+#: page-config.php:9 wordpress-2-step-verification.php:681
+msgid "Wordpress 2-step verification"
+msgstr "Wordpress xác minh 2 bước"
+
+#: page-config.php:14
+#, php-format
+msgid "2-step verification is <strong>%s</strong> for %s"
+msgstr "Xác minh 2 bước đang <strong>%s</strong> cho %s"
+
+#: template/backup-codes.txt.php:26
+msgid "Date:"
+msgstr "Ngày:"
+
+#: template/form-others.php:13
+msgid "Get a verification code from the <b>Google Authenticator</b> app"
+msgstr "Nhận mã xác minh từ ứng dụng <b>Google Authenticator</b>"
+
+#: template/form-others.php:26
+#, php-format
+msgid "Get an email with a verification code at %s"
+msgstr "Nhận email cung cấp mã xác minh được gửi đến %s"
+
+#: template/form-others.php:36
+msgid "Use backup code"
+msgstr "Sử dụng mã dự phòng"
+
+#: template/form-others.php:47
+msgid "Manual recovery"
+msgstr "Khôi phục quyền truy cập"
+
+#: template/form-others.php:48
+msgid "You will need ftp access to upload verification file"
+msgstr "Bạn sẽ cần có quyền truy cập ftp để tải lên tệp xác minh"
+
+#: template/form-recovery.php:11
+msgid "Upload an HTML file to your site"
+msgstr "Tải một tệp HTML lên trang web của bạn"
+
+#: template/form-recovery.php:14
+msgid "Download"
+msgstr "Tải xuống"
+
+#: template/form-recovery.php:14
+msgid "this HTML verification file"
+msgstr "tệp xác minh HTML này"
+
+#: template/form-recovery.php:15
+#, php-format
+msgid "<b>Upload</b> the file to Wordpress directory (same directory with %s)"
+msgstr ""
+"<b>Tải lên</b> tệp xác minh vào thư mục gốc của Wordpress (là thư mục chứa "
+"%s)"
+
+#: template/form-recovery.php:16
+msgid "<b>Click</b> Verify below"
+msgstr "<b>Bấm</b> Xác minh dưới đây"
+
+#: template/form-verify.php:29
+msgid "Enter your backup code"
+msgstr "Nhập mã dự phòng của bạn:"
+
+#: template/form-verify.php:31
+msgid "Enter a verification code"
+msgstr "Nhập mã xác minh"
+
+#: template/form-verify.php:38
+msgid "Enter the 6-digit code"
+msgstr "Nhập mã 6 chữ số"
+
+#: template/form-verify.php:40
+msgid ""
+"Get a verification code from the <strong>Google Authenticator</strong> app"
+msgstr "Nhận mã xác minh từ ứng dung <strong>Google Authenticator</strong>"
+
+#: template/form-verify.php:42
+#, php-format
+msgid "An email with a verification code was just sent to <strong>%s</strong>"
+msgstr "Một email chứa mã xác minh đã được gửi tới <strong>%s</strong>"
+
+#: template/form-verify.php:45
+msgid "Enter the 8-digit code"
+msgstr "Nhập mã 8 chữ số"
+
+#: template/form-verify.php:66
+msgid "Remember this computer for 30 days."
+msgstr "Nhớ máy tính này 30 ngày"
+
+#: template/others-link.php:5
+msgid "Try another way to sign in"
+msgstr "Thử cách đăng nhập khác"
+
+#: template/wp2sv.php:10
+msgid "Enter verification code"
+msgstr "Nhập mã xác minh"
+
+#: template/wp2sv.php:100 wordpress-2-step-verification.php:681
+#: wordpress-2-step-verification.php:698 wordpress-2-step-verification.php:856
+#: wordpress-2-step-verification.php:898
+msgid "2-Step Verification"
+msgstr "Xác minh 2 bước"
+
+#: template/wp2sv.php:105
+msgid ""
+"To sign in to your Wordpress Account, choose a task from the list below."
+msgstr ""
+"Để đăng nhập vào Tài khoản Wordpress của bạn, hãy chọn một tác vụ từ danh "
+"sách bên dưới."
+
+#: template/wp2sv.php:108
+msgid "To recover access to your Wordpress Account, complete the task below."
+msgstr ""
+"Để khôi phục quyền truy cập vào Tài khoản Wordpress của bạn, hay hoàn tất "
+"tác vụ bên dưới"
+
+#: template/wp2sv.php:111
+msgid "To help keep your account safer, complete the task below."
+msgstr "Để giữ tài khoản của bạn an toàn hơn, hãy hoàn thành tác vụ bên dưới"
+
+#: template/wp2sv.php:133
+msgid "Use a different account"
+msgstr "Sử dung một tài khoản khác"
+
+#: wordpress-2-step-verification.php:175 wordpress-2-step-verification.php:319
+msgid "The e-mail could not be sent."
+msgstr "Không thể gửi email."
+
+#: wordpress-2-step-verification.php:175
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr "Có thể host của bạn đã vô hiệu hóa hàm mail()..."
+
+#: wordpress-2-step-verification.php:178
+msgid "Total emails can send per day has reached limit!"
+msgstr "Vượt quá số email cho phép trong ngày!"
+
+#: wordpress-2-step-verification.php:195 wordpress-2-step-verification.php:209
+msgid "The code you entered didn't verify."
+msgstr "Mã bạn nhập không đúng"
+
+#: wordpress-2-step-verification.php:199
+msgid "Too many failed attempts with backup codes."
+msgstr "Bạn đã vượt quá số lần sai mã dự phòng cho phép"
+
+#: wordpress-2-step-verification.php:207
+msgid "The code you entered have already used."
+msgstr "Mã bạn vừa nhập đã được sử dụng"
+
+#: wordpress-2-step-verification.php:311
+msgid "Email is invalid"
+msgstr "Địa chỉ email không đúng"
+
+#: wordpress-2-step-verification.php:317
+msgid "Code sent."
+msgstr "Đã gửi mã xác minh."
+
+#: wordpress-2-step-verification.php:336
+msgid "Your device is configured."
+msgstr "Thiết bị của bạn được cấu hình."
+
+#: wordpress-2-step-verification.php:342
+msgid "The code is incorrect. Try again."
+msgstr "Mã xác minh không đúng. Hãy thử lại."
+
+#: wordpress-2-step-verification.php:463
+msgid "mobile"
+msgstr "di động"
+
+#: wordpress-2-step-verification.php:664
+msgid ""
+"Removing this data will turn off 2-step verification. Are you sure you want "
+"to delete this information?"
+msgstr ""
+"Xóa dữ liệu này sẽ tắt xác minh 2 bước. Bạn có chắc chắn muốn xóa thông tin "
+"này?"
+
+#: wordpress-2-step-verification.php:770
+msgid "ON"
+msgstr "BẬT"
+
+#: wordpress-2-step-verification.php:772
+msgid "OFF"
+msgstr "TẮT"
+
+#: wordpress-2-step-verification.php:839
+msgid "Your verification code"
+msgstr "Mã xác minh của bạn"
+
+#: wordpress-2-step-verification.php:844
+#, php-format
+msgid "Your verification code is %s"
+msgstr "Mã xác minh của bạn là %s"
+
+#: wordpress-2-step-verification.php:860 wordpress-2-step-verification.php:902
+msgid "Status:"
+msgstr "Trạng thái"
+
+#: wordpress-2-step-verification.php:870
+msgid "Only the user can turn on 2-step verification"
+msgstr "Chỉ người dùng mới có thể bật xác minh 2 bước."
+
+#: wordpress-2-step-verification.php:885
+msgid ""
+"Are you sure to turn off 2-step verification? Only the user can turn it on "
+"again!"
+msgstr ""
+"Bạn có chắc muốn tắt xác minh 2 bước? Chỉ người dùng mới có thể bật lại nó!"
+
+#~ msgid ""
+#~ "The e-mail could not be sent. Possible reason: your host may have "
+#~ "disabled the mail() function..."
+#~ msgstr ""
+#~ "Không thể gửi email.\n"
+#~ " Có thể host của bạn đã vô hiệu hóa hàm mail()..."
+
+#~ msgid "The e-mail could not be sent"
+#~ msgstr "Không thể gửi email."
+
+#~ msgid ""
+#~ "Keep them someplace accessible, like your wallet. Each code can be used "
+#~ "only once."
+#~ msgstr ""
+#~ "Hãy giữ các mã này ở nơi nào đó mà bạn dễ lấy, chẳng hạn như ví của bạn. "
+#~ "Mỗi mã chỉ có thể sử dụng một lần. "
+
+#~ msgid "Use your phone's camera to scan this barcode"
+#~ msgstr "Sử dụng máy ảnh của điện thoại của bạn để quét mã vạch này"
+
+#~ msgid "Key type: make sure \"Time-based\" is selected"
+#~ msgstr "Key type: make sure \"Time-based\" is selected"
+
+#~ msgid "TURN ON 2-STEP VERIFICATION"
+#~ msgstr "BẬT XÁC MINH 2 BƯỚC"
+
+#~ msgid " In Google Authenticator, touch Menu and select \"Set up account.\""
+#~ msgstr ""
+#~ "Trong Google Authenticator, chạm vào Menu và chọn \"Thiết lập tài khoản"
+#~ "\". "
+
+#~ msgid "In \"Enter account name\" type your wordpress username"
+#~ msgstr "Trong \"Nhập tên tài khoản\", nhập tên người dùng wordpress của bạn"
+
+#~ msgid ""
+#~ "Tip: Codes are time-dependent. Make sure your phone is set to the\n"
+#~ "\t\tcorrect local time."
+#~ msgstr ""
+#~ "Mẹo: Các mã phụ thuộc vào thời gian. Đảm bảo rằng điện thoại của bạn được "
+#~ "đặt chính xác theo giờ địa phương. "
+
+#~ msgid ""
+#~ "Go to the settings for your Wordpress Account in the application or "
+#~ "device you are trying to set up.\n"
+#~ "                    Replace your password with the 16-character password "
+#~ "shown above."
+#~ msgstr ""
+#~ "Chuyển tới cài đặt cho tài khoản Wordpress của bạn trong ứng dụng hoặc "
+#~ "thiết bị mà bạn đang cố gắng thiết lập. Thay thế mật khẩu của bạn bằng "
+#~ "mật khẩu gồm 16 ký tự hiển thị bên trên."
+
+#~ msgid ""
+#~ "Just like your normal password, this app password grants complete access "
+#~ "to your Wordpress Account.\n"
+#~ "                     You won't need to remember it, so don't write it "
+#~ "down or share it with anyone."
+#~ msgstr ""
+#~ "Giống như mật khẩu thông thường của bạn, mật khẩu ứng dụng này cấp cho "
+#~ "bạn toàn quyền truy cập vào tài khoản Wordpress của bạn. Bạn sẽ không cần "
+#~ "nhớ mật khẩu này, do đó đừng viết ra hay chia sẻ với bất kỳ ai."
+
+#~ msgid ""
+#~ "If your phone is unavailable, these codes will be the only way to\n"
+#~ "  sign in to your account. Keep them someplace accessible, like your\n"
+#~ "  wallet."
+#~ msgstr ""
+#~ "Nếu điện thoại và email của bạn không thể sử dụng được, những mã này là "
+#~ "cách duy nhất để đăng nhập vào tài khoản của bạn. Hãy để nó ở nơi bạn dễ "
+#~ "lấy, như trong ví của bạn"
+
+#~ msgid ""
+#~ "The e-mail could not be sent.\n"
+#~ "    Possible reason: your host may have disabled the mail() function..."
+#~ msgstr ""
+#~ "Không thể gửi email.\n"
+#~ " Có thể host của bạn đã vô hiệu hóa hàm mail()..."
+
+#~ msgid "Enter the verification code generated by your mobile application."
+#~ msgstr "Nhập mã xác minh được tạo ra bởi ứng dụng di động của bạn."
+
+#~ msgid "Enter the verification code sent to your email ending in %s."
+#~ msgstr "Nhập mã xác minh được gửi tới địa chỉ email kết thúc bởi %s."
+
+#~ msgid "Enter code:"
+#~ msgstr "Nhập mã:"
+
+#~ msgid "Use your phone"
+#~ msgstr "Sử dụng điện thoại của bạn"
+
+#~ msgid "Didn't receive email? - Send code again"
+#~ msgstr "Không nhận được email? - Gửi lại mã"
+
+#~ msgid "Don't have your phone? - Send code to your email"
+#~ msgstr "Bạn không mang theo điện thoại? - Gửi mã tới email của bạn"
+
+#~ msgid "Send code to user email"
+#~ msgstr "Gửi mã đến email của tài khoản"
+
+#~ msgid "Log Out"
+#~ msgstr "Đăng xuất"
+
+#~ msgid ""
+#~ "Go to the settings for your Wordpress Account in the application or "
+#~ "device you are trying to set up.\n"
+#~ "                    Replace your password with the 16-character password "
+#~ "shown above.<p>Just like your normal password, this\n"
+#~ "                        app password grants complete access to your "
+#~ "Wordpress Account. You won't need to remember it, so don't\n"
+#~ "                        write it down or share it with anyone."
+#~ msgstr ""
+#~ "Mở phần thiết lập tài khoản của ứng dụng mà bạn đang thiết lập. Sử dụng "
+#~ "16 ký tự bên trên thay cho mật khẩu của bạn"
+
+#~ msgid "Skip this step"
+#~ msgstr "Bỏ qua bước này"
+
+#~ msgid ""
+#~ "This will temporary turn off 2-step verification and take you to setup "
+#~ "page"
+#~ msgstr "Việc này sẽ tạm thời tắt xác minh 2 bước và bạn phải thiết lập lại"
+
+#~ msgid "In Google Authenticator, select Scan a barcode."
+#~ msgstr ""
+#~ "Trong Google Authenticator, chạm vào Menu và chọn \"Thiết lập tài khoản"
+
+#~ msgid "Turn off 2-step verification..."
+#~ msgstr "Tắt xác minh 2 bước..."
+
+#~ msgid "Turn on 2-step verification..."
+#~ msgstr "Bật xác minh 2 bước..."
+
+#~ msgid ""
+#~ "Trusted computers only ask for verification codes once every 30 days. If "
+#~ "you lose your phone, you might\n"
+#~ "\t\t\t\tbe able to access your account from a trusted computer without "
+#~ "needing a code. We recommend that you\n"
+#~ "\t\t\t\tmake this a trusted computer only if you trust the people who "
+#~ "have access to it."
+#~ msgstr ""
+#~ "Các máy tính đáng tin cậy chỉ hỏi mã sau 30 ngày. Nếu bạn bị mất điện "
+#~ "thoại bạn vẫn\n"
+#~ "\t\t\t\tcó thể truy cập vào tài khoản của bạn từ một máy tính đáng tin "
+#~ "cậy mà không cần nhập mã. Chúng tôi khuyên bạn chỉ nên\n"
+#~ "\t\t\t\ttin cậy máy tính này nếu bạn tin những người có thể dùng máy tính "
+#~ "của bạn"
