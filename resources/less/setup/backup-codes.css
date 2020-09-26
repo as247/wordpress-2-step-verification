@@ -1,0 +1,46 @@
+#wp2sv-backup-codes-modal {
+  width: 131mm;
+  width: fit-content;
+}
+#wp2sv-backup-codes-modal .card-body {
+  width: 110mm;
+}
+#wp2sv-backup-codes-modal .card-body .btn-new-codes {
+  margin: 0.5em;
+}
+.backup-codes {
+  border: dashed 1px #ccc;
+  padding: 16px 0;
+}
+.backup-codes .backup-info {
+  text-align: center;
+  font-size: 14px;
+}
+.backup-codes .backup-info img {
+  border: none;
+  width: 48px;
+  height: auto;
+}
+.backup-codes .backup-note {
+  margin: auto;
+  font-size: 14px;
+  width: 50%;
+  width: fit-content;
+  max-width: 400px;
+  list-style: square;
+}
+.backup-codes .backup-codes-list {
+  margin: auto;
+  display: inline-block;
+  font-size: 15pt;
+}
+.backup-codes .backup-codes-list span.cb {
+  border: 1px solid;
+  display: inline-block;
+  height: 14px;
+  margin-right: 2px;
+  width: 14px;
+}
+.backup-codes .backup-codes-list tr td:first-child {
+  padding-right: 40px;
+}
