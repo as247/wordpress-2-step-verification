@@ -1,0 +1,83 @@
+@media print {
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+    background: #FFF;
+    font-size: 9.5pt;
+  }
+  .hide-if-print {
+    display: none;
+  }
+  body {
+    overflow-y: hidden;
+  }
+  body * {
+    visibility: hidden;
+  }
+  body .wp2sv .show-if-print {
+    display: block;
+  }
+  body .wp2sv li.show-if-print {
+    display: list-item;
+  }
+  body .wp2sv .wp2sv-container {
+    height: 1px;
+  }
+  body .wp2sv .wp2sv-modal-mask {
+    display: block;
+  }
+  body .wp2sv .wp2sv-modal-close {
+    display: none;
+  }
+  body .wp2sv #wp2sv-backup-codes-modal .wp2sv-modal-content {
+    padding: 1mm;
+  }
+  body .wp2sv #wp2sv-backup-codes-modal * {
+    visibility: visible;
+  }
+  body .wp2sv #wp2sv-backup-codes-modal .card-body {
+    width: 90mm;
+  }
+  body .wp2sv #wp2sv-backup-codes-modal .card-footer,
+  body .wp2sv #wp2sv-backup-codes-modal .wp2sv-get-new-codes {
+    display: none;
+  }
+  body .wp2sv #wp2sv-backup-codes-modal .backup-codes {
+    border: dashed 1px #ccc;
+    padding: 16px 0;
+  }
+  body .wp2sv #wp2sv-backup-codes-modal .backup-codes .backup-info {
+    text-align: center;
+    font-size: 13px;
+  }
+  body .wp2sv #wp2sv-backup-codes-modal .backup-codes .backup-info img {
+    border: none;
+    width: 48px;
+    height: auto;
+  }
+  body .wp2sv #wp2sv-backup-codes-modal .backup-codes .backup-note {
+    margin: auto;
+    font-size: 13px;
+    width: 50%;
+    width: fit-content;
+    max-width: 70mm;
+    list-style: square;
+  }
+  body .wp2sv #wp2sv-backup-codes-modal .backup-codes .backup-codes-list {
+    margin: auto;
+    display: inline-block;
+    font-size: 14pt;
+    padding: 0 20px 16px 20px;
+  }
+  body .wp2sv #wp2sv-backup-codes-modal .backup-codes .backup-codes-list span.cb {
+    border: 1px solid;
+    display: inline-block;
+    height: 14px;
+    margin-right: 2px;
+    width: 14px;
+  }
+  body .wp2sv #wp2sv-backup-codes-modal .backup-codes .backup-codes-list tr td:first-child {
+    padding-right: 20px;
+  }
+}

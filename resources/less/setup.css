@@ -1,0 +1,236 @@
+.wp2sv-setup .sync-link {
+  background: url("../../images/setup/sync-time.png") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+  display: inline-block;
+  height: 20px;
+  left: 5px;
+  padding: 5px !important;
+  position: relative;
+  text-indent: -9999px;
+  top: 5px;
+  width: 20px;
+  cursor: pointer;
+}
+.wp2sv-setup .sync-link.loading {
+  background: url("../../images/setup/sync-time.gif") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+}
+.wp2sv-setup .wp2sv-icon {
+  background: no-repeat url("../../images/setup/all.png");
+  background-size: 277px 197px;
+  width: 36px;
+  height: 36px;
+}
+.wp2sv-setup .wp2sv-icon.wp2svi-ga {
+  background-position: -24px 0;
+}
+.wp2sv-setup .wp2sv-icon.wp2svi-additional-layer {
+  background-position: -1px -37px;
+}
+.wp2sv-setup .wp2sv-icon.wp2svi-hacker {
+  background-position: -1px -117px;
+}
+.wp2sv-setup .wp2sv-icon.wp2svi-airplane {
+  background-position: -96px 0;
+}
+.wp2sv-setup .wp2sv-icon.wp2svi-message {
+  background-position: -60px 0;
+}
+.wp2sv-setup .wp2sv-icon.wp2svi-app-passwords {
+  background-position: -246px 0;
+}
+.wp2sv-setup .wp2sv-icon.wp2svi-usb {
+  background-position: -208px 0;
+}
+.wp2sv-setup .wp2sv-icon.wp2svi-devices {
+  background-position: -135px 0;
+}
+.wp2sv-setup .wp2sv-modal .card-body {
+  font-size: 15px;
+}
+.wp2sv-setup .wp2sv-container {
+  max-width: 660px;
+  width: 100%;
+  margin: 0 auto;
+  min-width: 300px;
+}
+.wp2sv-setup .wp2sv-qrcode {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  padding: 20px;
+}
+.wp2sv-setup .wp2sv-start .wp2sv-logo {
+  background-image: url(https://ps.w.org/wordpress-2-step-verification/assets/icon-128x128.png?rev=1391369);
+  background-size: cover;
+  width: 48px;
+  height: 48px;
+  margin: auto;
+}
+.wp2sv-setup .wp2sv-start .wp2sv-icon {
+  width: 105px;
+  height: 79px;
+  margin-right: 45px;
+}
+.wp2sv-setup #wp2sv-backup-codes-modal {
+  width: 131mm;
+  width: fit-content;
+}
+.wp2sv-setup #wp2sv-backup-codes-modal .card-body {
+  width: 110mm;
+}
+.wp2sv-setup #wp2sv-backup-codes-modal .card-body .btn-new-codes {
+  margin: 0.5em;
+}
+.wp2sv-setup .backup-codes {
+  border: dashed 1px #ccc;
+  padding: 16px 0;
+}
+.wp2sv-setup .backup-codes .backup-info {
+  text-align: center;
+  font-size: 14px;
+}
+.wp2sv-setup .backup-codes .backup-info img {
+  border: none;
+  width: 48px;
+  height: auto;
+}
+.wp2sv-setup .backup-codes .backup-note {
+  margin: auto;
+  font-size: 14px;
+  width: 50%;
+  width: fit-content;
+  max-width: 400px;
+  list-style: square;
+}
+.wp2sv-setup .backup-codes .backup-codes-list {
+  margin: auto;
+  display: inline-block;
+  font-size: 15pt;
+}
+.wp2sv-setup .backup-codes .backup-codes-list span.cb {
+  border: 1px solid;
+  display: inline-block;
+  height: 14px;
+  margin-right: 2px;
+  width: 14px;
+}
+.wp2sv-setup .backup-codes .backup-codes-list tr td:first-child {
+  padding-right: 40px;
+}
+.wp2sv-setup .wp2sv-app-passwords {
+  width: 100%;
+}
+.wp2sv-setup .wp2sv-app-passwords .wp2sv-container {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  text-align: left;
+  padding: 30px;
+}
+.wp2sv-setup .wp2sv-app-passwords table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.wp2sv-setup .wp2sv-app-passwords table .row {
+  border-bottom: 1px solid #e5e5e5;
+}
+.wp2sv-setup .wp2sv-app-passwords table td {
+  padding: 12px 0;
+}
+.wp2sv-setup .wp2sv-app-passwords table .col-name {
+  width: 30%;
+  padding-left: 4px;
+}
+.wp2sv-setup .wp2sv-app-passwords table .col-created {
+  width: 25%;
+  padding-left: 20px;
+}
+.wp2sv-setup .wp2sv-app-passwords table .col-last-used {
+  width: 25%;
+  padding-left: 20px;
+}
+.wp2sv-setup .wp2sv-app-passwords table .col-access {
+  width: 20%;
+  padding-left: 20px;
+}
+.wp2sv-setup .wp2sv-app-passwords .revoke-btn {
+  display: inline-block;
+  position: relative;
+  border-radius: 3px;
+  cursor: default;
+  font-weight: bold;
+  height: 28px;
+  line-height: 28px;
+  margin-right: 16px;
+  outline: 0 none;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #fff;
+  background-image: -moz-linear-gradient(center top, transparent, transparent);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+  color: #404040;
+  font-size: 13px;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+.wp2sv-setup .wp2sv-app-passwords .revoke-btn:hover {
+  background: #fff;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #b8b8b8;
+}
+.wp2sv-setup .wp2sv-app-passwords .app-add-password {
+  line-height: 42px;
+  margin: 20px 0;
+}
+.wp2sv-setup .wp2sv-app-passwords .app-add-password span {
+  margin-right: 16px;
+}
+.wp2sv-setup .wp2sv-app-passwords .app-add-password .app-name {
+  margin: 0;
+  min-width: 200px;
+  padding-right: 24px;
+  width: 50%;
+}
+.wp2sv-setup .wp2sv-app-passwords .app-add-password .generate {
+  border-radius: 3px;
+  cursor: default;
+  font-weight: bold;
+  margin-right: 16px;
+  text-transform: uppercase;
+  background: #427fed none repeat scroll 0 0;
+  opacity: 0.5;
+  font-size: 13px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 15px;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+  color: #fff;
+  min-width: 34px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  outline: 0 none;
+}
+.wp2sv-setup .wp2sv-app-passwords .app-add-password .generate.enabled {
+  opacity: 1;
+  cursor: pointer;
+}
+.wp2sv-setup #app-password-created .wp2sv-h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.wp2sv-setup #app-password-created .apc-title {
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.wp2sv-setup #app-password-created .apc-pass {
+  margin: 16px 0 32px;
+  background: #ffe166;
+  border: 1px dashed rgba(0, 0, 0, 0.12);
+  font-family: monospace;
+  font-size: 24px;
+  padding: 12px;
+}
